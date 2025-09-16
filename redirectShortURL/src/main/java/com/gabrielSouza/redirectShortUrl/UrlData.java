@@ -1,5 +1,4 @@
-package com.gabrielSouza.createUrl;
-
+package com.gabrielSouza.redirectShortUrl;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

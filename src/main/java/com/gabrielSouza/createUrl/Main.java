@@ -31,7 +31,7 @@ public class Main implements RequestHandler<Map<String, Object>, Map<String, Obj
             throw new RuntimeException("Error parsing JSON", e);
         }
 
-        String originalUrl = bodyMap.get("url");
+        String originalUrl = bodyMap.get("originalUrl");
         String expirationTime = bodyMap.get("expirationTime");
 
         Long expirationTimeInSec = Long.parseLong(expirationTime) ;
